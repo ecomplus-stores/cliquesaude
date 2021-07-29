@@ -1,24 +1,24 @@
 {
-  "store_id": 4673,
-  "name": "cliquesaude",
   "domain": "cliquesaude.netlify.app",
-  "short_name": "cliquesaude",
-  "description": "cliquesaude",
-  "primary_color": "#222831",
-  "secondary_color": "#393e46",
-  "bg_color": "#ffffff",
+  "currency_symbol": "R$",
+  "primary_color": "#0b6666",
   "theme": {
-    "bootswatch": "_",
-    "custom": "_"
+    "bootswatch": "yeti",
+    "custom": "clean-white"
   },
-  "logo": "/img/uploads/logo.png",
-  "mini_logo": "",
-  "icon": "/img/icon.png",
-  "large_icon": "/img/large-icon.png",
-  "favicon": "/img/uploads/favicon.png",
+  "bg_color": "#ffffff",
+  "repository": "ecomplus-stores/cliquesaude",
+  "logo": "/img/uploads/logotipo.png",
+  "name": "cliquesaude",
+  "short_name": "cliquesaude",
   "lang": "pt_br",
   "currency": "BRL",
-  "currency_symbol": "R$",
+  "mini_logo": "",
+  "favicon": "/img/uploads/favicon.png",
   "country_code": "BR",
-  "repository": "ecomplus-stores/cliquesaude"
+  "secondary_color": "#0b6666",
+  "icon": "/img/uploads/favicon.png",
+  "store_id": 4673,
+  "description": "cliquesaude",
+  "large_icon": "/img/uploads/logotipo.png"
 }
