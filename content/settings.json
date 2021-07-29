@@ -3,8 +3,8 @@
   "currency_symbol": "R$",
   "primary_color": "#0b6666",
   "theme": {
-    "bootswatch": "yeti",
-    "custom": "clean-white"
+    "bootswatch": "_",
+    "custom": "_"
   },
   "bg_color": "#ffffff",
   "repository": "ecomplus-stores/cliquesaude",
