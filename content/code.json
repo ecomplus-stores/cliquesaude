@@ -1,5 +1,5 @@
 {
-  "css": "@font-face {\n   font-family: 'Georama', sans-serif;\n   src: url(https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);\n}",
-  "html_head": "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n<link href=\"https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap\" rel=\"stylesheet\">",
+  "css": "/*Fonte*/\n@font-face {\n  font-family: 'Georama', sans-serif;\n  src: url(\"https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap\");\n}\n",
+  "html_head": "<head>\n  <style> \n@import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');\n    </style>\n    </head>",
   "html_body": ""
 }
