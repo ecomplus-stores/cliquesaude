@@ -1,5 +1,5 @@
 {
-  "css": "/*Fonte*/\nbody{\n  font-family:'Georama';\n}\n\n/*Diminuir_Barra_Marketing*/\n@media (min-width: 992px)\n.top-bar__countdown {\n    font-size: 0.8em;\n    padding-top: 5px;\n    padding-bottom: 5px;\n}\n\n/*Diminuir_font_barra-pages-topo*/\n.top-bar__page-links a {\n    font-weight: 500;\n    font-size: 0.8em;\n}\n\n/*Alinhar_texto_barra-pages-topo*/\n.top-bar__nav {\n    text-align: end;\n}",
+  "css": "/*Fonte*/\nbody{\n  font-family:'Georama';\n}\n\n/*Diminuir_Barra_Marketing*/\n@media (min-width: 992px)\n.top-bar__countdown {\n    font-size: 0.8em!important;\n    padding-top: 5px!important;\n    padding-bottom: 5px!important;\n}\n\n/*Diminuir_font_barra-pages-topo*/\n.top-bar__page-links a {\n    font-weight: 500;\n    font-size: 0.8em;\n}\n\n/*Alinhar_texto_barra-pages-topo*/\n.top-bar__nav {\n    text-align: end;\n}",
   "html_head": "<link href=\"https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap\" rel=\"stylesheet\">",
   "html_body": ""
 }
