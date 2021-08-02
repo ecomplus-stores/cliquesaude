@@ -1,7 +1,7 @@
 import {
   i19days,
   i19free,
-  i19freeShipping,
+  //i19freeShipping,
   // i19pickUpToday,
   i19receiveToday,
   i19untilTomorrow,
@@ -15,6 +15,7 @@ import {
 } from '@ecomplus/utils'
 
 const i19pickUpToday = 'Retire hoje'
+const i19freeShipping = 'Coleta Grátis'
 
 export default {
   name: 'ShippingLine',
