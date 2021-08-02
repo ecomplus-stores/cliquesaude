@@ -8,7 +8,7 @@
   },
   "bg_color": "#ffffff",
   "repository": "ecomplus-stores/cliquesaude",
-  "logo": "/img/uploads/logotipo_sem-margem.png",
+  "logo": "/img/uploads/logotipo_sem-margem-update.png",
   "name": "Clique Saúde - Portal de Exames",
   "short_name": "Clique Saúde",
   "lang": "pt_br",
@@ -20,5 +20,5 @@
   "icon": "/img/uploads/faviconapp.png",
   "store_id": 4673,
   "description": "Um portal para agendar exames com apenas um clique",
-  "large_icon": "/img/uploads/logotipo.png"
+  "large_icon": "/img/uploads/logotipo_sem-margem-update.png"
 }
