@@ -4,11 +4,7 @@
     "link": ""
   },
   "contacts_stripe": {
-    "pages": [
-      {
-        "title": "Fale Conosco"
-      }
-    ],
+    "pages": [],
     "phone_wpp": false,
     "socials": false
   },
