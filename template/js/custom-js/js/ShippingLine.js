@@ -4,7 +4,7 @@ import {
   //i19freeShipping,
   // i19pickUpToday,
   i19receiveToday,
-  i19untilTomorrow,
+  //i19untilTomorrow,
   i19upTo,
   i19workingDays
 } from '@ecomplus/i18n'
