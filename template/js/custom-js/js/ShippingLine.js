@@ -15,7 +15,7 @@ import {
 } from '@ecomplus/utils'
 
 const i19pickUpToday = 'Retire hoje'
-const i19freeShipping = 'Coleta Grátis'
+const i19freeShipping = 'Coleta no Laboratório'
 
 export default {
   name: 'ShippingLine',
