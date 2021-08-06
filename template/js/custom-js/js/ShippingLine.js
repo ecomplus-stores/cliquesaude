@@ -16,6 +16,7 @@ import {
 
 const i19pickUpToday = 'Retire hoje'
 const i19freeShipping = 'Coleta no Laboratório'
+const i19untilTomorrow = 'Mediante Agendamento'
 
 export default {
   name: 'ShippingLine',
