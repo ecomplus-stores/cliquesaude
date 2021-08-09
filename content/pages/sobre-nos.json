@@ -2,5 +2,12 @@
   "title": "Sobre nós",
   "meta_title": "Sobre nós",
   "meta_description": "Sobre nós",
-  "body": "### Lorem ipsum dolor sit amet"
+  "body": "Buscamos sempre melhor comodidade para nossos clientes, trazendo o melhor serviço, focando em oferecer conveniência e os melhores preços de mercado. Nosso objetivo é ampliar o acesso a diagnósticos de qualidade, por meio de uma plataforma simples e intuitiva.",
+  "sections": [
+    {
+      "type": "page-title",
+      "description": "Buscamos sempre melhor comodidade para nossos clientes, trazendo o melhor serviço, focando em oferecer conveniência e os melhores preços de mercado. Nosso objetivo é ampliar o acesso a diagnósticos de qualidade, por meio de uma plataforma simples e intuitiva.",
+      "title": "Sobre nós | Clique Saúde"
+    }
+  ]
 }
