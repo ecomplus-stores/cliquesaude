@@ -2,5 +2,11 @@
   "title": "Contato",
   "meta_title": "Contato",
   "meta_description": "Contato",
-  "body": "### Lorem ipsum dolor sit amet"
+  "body": "<!--StartFragment-->\n<P>\n<P>\n\n##### Fale Conosco pelo:\n\n[(77) 30289001](https://web.whatsapp.com/send?phone=%2B557730289001) | [(77) 30289001](tel:+7730289001)[](mailto:sac@cliquesaudeweb.com.br)\n\n[sac@cliquesaudeweb.com.br](mailto:sac@cliquesaudeweb.com.br)\n\n\n<hr width = “2” size = “100”>\n\n##### Nosso Endereço\n\nAv. Frei Benjamim, 100 - Bairro Brasil CEP 45051-075\n\n<!--EndFragment-->",
+  "sections": [
+    {
+      "type": "custom-html",
+      "html": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3856.4816647026087!2d-40.8558987856855!3d-14.854321204490562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7463b0b0b28c2e1%3A0x25e254cec4c48ffc!2sAv.%20Frei%20Benjamin%20-%20Vit%C3%B3ria%20da%20Conquista%2C%20BA%2C%2045051-075!5e0!3m2!1spt-BR!2sbr!4v1629146975102!5m2!1spt-BR!2sbr\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>"
+    }
+  ]
 }
