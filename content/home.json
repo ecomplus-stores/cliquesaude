@@ -19,7 +19,23 @@
       "enabled": true
     },
     {
-      "type": "banners-grid"
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/exames.png",
+          "link": "https://cliquesaude.netlify.app/exame"
+        },
+        {
+          "img": "/img/uploads/testes.png"
+        },
+        {
+          "img": "/img/uploads/check-ups.png",
+          "link": "https://cliquesaude.netlify.app/check-ups"
+        },
+        {
+          "img": "/img/uploads/vacinas.png"
+        }
+      ]
     }
   ]
 }
