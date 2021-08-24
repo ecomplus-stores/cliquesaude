@@ -43,7 +43,7 @@
     },
     {
       "type": "custom-html",
-      "html": "<h1 style=\"font-size:22px;\"><center>Como a Clique Saúde Funciona?</center></h1>"
+      "html": "<h1 style=\"font-size:22px;\" color=\"#0B6666\"><center>Como a Clique Saúde Funciona?</center></h1>"
     },
     {
       "type": "banners-grid",
