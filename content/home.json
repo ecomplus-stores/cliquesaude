@@ -39,7 +39,7 @@
     },
     {
       "type": "custom-html",
-      "html": "<style>\n.teste {\n  color: black;\n}\n  \n#caixa{\n  display: flex;\n}\n  \n#imagem{\n  width: 60%;\n  margin-right: 10px;\n} \n  \n#coleta{\n  width: 40%;\n  margin-left: 10px;\n} \n\n</style>\n\n<div id=\"caixa\">\n  <div id=\"imagem\">\n     <img src=\"https://blogs.iadb.org/brasil/wp-content/uploads/sites/29/2019/12/lista_saude-publica_gestao-em-saude.jpg\" alt=\"\" />\n  </div>\n  <div id=\"coleta\">\n    <h2 class=\"teste\">Coleta em Casa</h2>\n    <p>Na Clique Saúde, você pode escolher entre fazer exames nas unidades, no conforto da sua casa, ou na praticidade do seu escritório. É só chamar, que nós vamos até você!</p>\n  <div>\n<div>"
+      "html": "<style>\n.teste {\n  color: black;\n}\n  \n#caixa{\n  display: flex;\n}\n  \n#imagem{\n  width: 100%;\n  margin-right: 10px;\n} \n  \n#coleta{\n  width: 100%;\n  margin-left: 10px;\n} \n\n</style>\n\n<div id=\"caixa\">\n  <div id=\"imagem\">\n     <img src=\"https://blogs.iadb.org/brasil/wp-content/uploads/sites/29/2019/12/lista_saude-publica_gestao-em-saude.jpg\" alt=\"\" />\n  </div>\n  <div id=\"coleta\">\n    <h2 class=\"teste\">Coleta em Casa</h2>\n    <p>Na Clique Saúde, você pode escolher entre fazer exames nas unidades, no conforto da sua casa, ou na praticidade do seu escritório. É só chamar, que nós vamos até você!</p>\n  <div>\n<div>"
     }
   ]
 }
