@@ -36,6 +36,10 @@
           "img": "/img/uploads/vacinas.png"
         }
       ]
+    },
+    {
+      "type": "custom-html",
+      "html": "<style>\n.teste {\n  background-color: tomato;\n  color: black;\n  padding: 10px;\n}\n</style>\n\n<h2 class=\"teste\">Coleta em Casa</h2>\n<p>Na Clique saúde, você pode escolher entre fazer exames nas unidades, no conforto da sua casa, ou na praticidade do seu escritório. É só chamar, que nós vamos até você!</p>"
     }
   ]
 }
