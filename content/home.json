@@ -43,7 +43,7 @@
     },
     {
       "type": "custom-html",
-      "html": "<h1 style=\"font-size:22px;\" color=\"#0B6666\"><center>Como a Clique Saúde Funciona?</center></h1>"
+      "html": "<style>\n.teste {\n  color: #0B6666;\n  font-size: 22px;\n}\n</style>\n\n  <div id=\"como-funciona\">\n    <h2 class=\"teste\">Como a Clique Saúde Funciona?</h2>\n  </div>"
     },
     {
       "type": "banners-grid",
