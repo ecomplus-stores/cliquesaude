@@ -49,13 +49,13 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/resultados-faceis.png"
+          "img": "/img/uploads/resultados_faceis_de_entender.png"
         },
         {
-          "img": "/img/uploads/exame-melhores-precos.png"
+          "img": "/img/uploads/melhores_precos.png"
         },
         {
-          "img": "/img/uploads/conforto-casa.png"
+          "img": "/img/uploads/faca_no_conforto_casa.png"
         }
       ]
     }
