@@ -39,7 +39,7 @@
     },
     {
       "type": "custom-html",
-      "html": "<style>\n.teste {\n  color: #0B6666;\n}\n  \n#caixa{\n  display: flex;\n}\n  \n#imagem{\n  width: 100%;\n  margin-right: 10px;\n} \n  \n#coleta{\n  width: 100%;\n  margin-left: 10px;\n} \n  \n@media screen and (max-width: 768px) {\n  #caixa{\n    display: block;\n  } \n  \n  #coleta{\n    margin-top: 10px;\n  } \n}\n\n</style>\n\n<div id=\"caixa\">\n  <div id=\"imagem\">\n     <img src=\"template/public/img/uploads/cuidado-em-casa.png\" alt=\"\" />\n  </div>\n  <div id=\"coleta\">\n    <h2 class=\"teste\">Coleta em Casa</h2>\n    <p>Na Clique Saúde, você pode escolher entre fazer exames nas unidades, no conforto da sua casa, ou na praticidade do seu escritório. É só chamar, que nós vamos até você!</p>\n  <div>\n<div>"
+      "html": "<style>\n.teste {\n  color: #0B6666;\n}\n  \n#caixa{\n  display: flex;\n}\n  \n#imagem{\n  width: 100%;\n  margin-right: 10px;\n} \n  \n#coleta{\n  width: 100%;\n  margin-left: 10px;\n} \n  \n@media screen and (max-width: 768px) {\n  #caixa{\n    display: block;\n  } \n  \n  #coleta{\n    margin-top: 10px;\n  } \n}\n\n</style>\n\n<div id=\"caixa\">\n  <div id=\"imagem\">\n     <img src=\"img/uploads/cuidado-em-casa.png\" alt=\"\" />\n  </div>\n  <div id=\"coleta\">\n    <h2 class=\"teste\">Coleta em Casa</h2>\n    <p>Na Clique Saúde, você pode escolher entre fazer exames nas unidades, no conforto da sua casa, ou na praticidade do seu escritório. É só chamar, que nós vamos até você!</p>\n  <div>\n<div>"
     },
     {
       "type": "custom-html",
