@@ -18,3 +18,35 @@ label[for="shipping-calculator-zip"] {
       line-height: 2
     }  
 }
+.fas.fa-shopping-bag {
+  &::before {
+    content: " ";
+    background-image: url(/img/uploads/agendar-exame-branco.svg);
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-size: 100% 100%;
+    position: relative;
+    top: 3px
+  }
+}
+
+.product-card__buy button, .product__buy button span {
+  font-size: 0;
+  &::after {
+    content: 'Agendar Exame';
+    font-size: 1rem !important;
+  }
+}
+@media(min-width: 767px) {
+  .share-network-sms {
+    display: none;
+  }
+}
+.search__header.card-header .search__input-group input::-webkit-input-placeholder {
+  font-size: 0
+}
+.search__header.card-header .search__input-group input::-webkit-input-placeholder::after {
+  font-size: 1rem !important;
+  content: 'Buscar Exame'
+}
