@@ -43,10 +43,10 @@ label[for="shipping-calculator-zip"] {
     display: none;
   }
 }
-.search__header.card-header .search__input-group input::-webkit-input-placeholder {
-  font-size: 0
+.search-engine__info h3 {
+  font-size: 0;
 }
-.search__header.card-header .search__input-group input::-webkit-input-placeholder::after {
+.search-engine__info h3::after {
   font-size: 1rem !important;
-  content: 'Buscar Exame'
+  content: 'Buscar Exame';
 }
