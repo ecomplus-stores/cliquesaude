@@ -34,7 +34,7 @@ label[for="shipping-calculator-zip"] {
 .product-card__buy button, .product__buy button span {
   font-size: 0;
   &::after {
-    content: 'Agendar Exame';
+    content: 'Comprar Exame';
     font-size: 1rem !important;
   }
 }
