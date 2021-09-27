@@ -69,3 +69,10 @@ label[for="shipping-calculator-zip"] {
   color: grey;
   font-weight: 500
 }
+#order-notes::placeholder {
+  opacity: 0
+}
+.checkout__notes label:after {
+  content: " : informe abaixo, se você já utiliza algum medicamento ou tem alguma restrição";
+  font-weight: 500
+}
