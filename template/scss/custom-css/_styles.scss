@@ -50,3 +50,10 @@ label[for="shipping-calculator-zip"] {
   font-size: 1rem !important;
   content: 'Buscar Exame';
 }
+.minicart__btn-checkout {
+  font-size: 0
+}
+.minicart__btn-checkout:after {
+  font-size: 1rem !important;
+  content: "Finalizar Pagamento"
+}
