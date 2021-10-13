@@ -11,6 +11,12 @@
           "end": "2022-08-02T23:16:49.921Z",
           "img": "/img/uploads/desktop_cliquesaudeteste.png",
           "mobile_img": "/img/uploads/mobile-teste.png"
+        },
+        {
+          "start": "2021-10-13T19:37:03.560Z",
+          "end": "2030-10-13T19:38:29.802Z",
+          "img": "/img/uploads/consultas_desktop.png",
+          "mobile_img": "/img/uploads/consulta_mobile.png"
         }
       ]
     },
@@ -55,10 +61,6 @@
           "img": "/img/uploads/faca_no_conforto_casa.png"
         }
       ]
-    },
-    {
-      "type": "responsive-banner",
-      "img": "/img/uploads/horario-marcado.png"
     }
   ]
 }
