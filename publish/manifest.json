@@ -1,0 +1,37 @@
+{
+  "icons": [
+    {
+      "src": "/icon_512x512.4eaaff0af52caf40e2d3eacebb397569.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_384x384.c569311576cdd09b7105b7f22f81df67.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_192x192.2b5539c726e441ff9851104d6d6eac53.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_128x128.fde30000e33f1d72384512669c91854f.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_96x96.89134cb4f1130761f5643e97bc1eb981.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "name": "Clique Saúde - Portal de Exames",
+  "short_name": "Clique Saúde",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "Um portal para agendar exames com apenas um clique",
+  "background_color": "#ffffff",
+  "theme_color": "#0b6666"
+}

@@ -1,0 +1,374 @@
+<!doctype html><html lang="pt-br" dir="ltr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no,minimum-scale=1"><link rel="manifest" href="/manifest.json" crossorigin="use-credentials"><meta name="theme-color" content="#0b6666"><link rel="icon" href="/img/uploads/favicon_cliquesaude.png"><title>Contato</title><meta name="description" content="Contato"><meta name="author" content="Clique Saúde - Portal de Exames"><meta name="generator" content="E-Com Plus Storefront"><link rel="canonical" href="https://cliquesaude.netlify.app/pages/contato"><link rel="preload" href="/storefront.a0a2389d435b7a04943b.css" as="style"><link rel="preload" href="/storefront.e79b3d38ff4310674377.js" as="script"><link rel="preconnect" href="https://cdn.jsdelivr.net/" crossorigin><link rel="dns-prefetch" href="https://cdn.jsdelivr.net/"><link rel="preconnect" href="https://apx-search.e-com.plus/" crossorigin><link rel="dns-prefetch" href="https://apx-search.e-com.plus/"><link rel="apple-touch-icon" href="/img/uploads/faviconapp.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta property="og:site_name" content="Clique Saúde - Portal de Exames"><meta property="og:url" content="https://cliquesaude.netlify.app/pages/contato"><meta property="og:title" content="Contato"><meta property="og:description" content="Contato"><meta property="og:type" content="website"><meta property="og:locale" content="pt_BR"><meta name="twitter:card" content="summary"><meta name="ecom-store-id" content="4673"><meta name="views-v" content="1.3.0"><script>if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/sw.js').then(registration => {
+      console.log('SW registered: ', registration)
+    }).catch(registrationError => {
+      console.log('SW registration failed: ', registrationError)
+    })
+  }</script><link rel="stylesheet" type="text/css" href="/storefront.a0a2389d435b7a04943b.css"><style>/*Fonte*/
+body{
+  font-family:'Georama';
+}
+
+/*Diminuir_Barra_Marketing*/
+
+.top-bar__countdown {
+    font-size: 0.8em!important;
+    padding-top: 5px!important;
+    padding-bottom: 5px!important;
+}
+
+/*SOMBRA LISTAGEM DE PRODUTOS*/
+article.product-item {
+    box-shadow: 0 0 1em #0b66665c;
+    margin: 10px;
+}
+
+/*REMOVER FOTO DO PRODUT NA LISTAGEM*/
+.product-card__pictures {
+    display: none;
+}
+
+/* mini banners mobile*/
+@media(max-width: 767px) {
+  .page--home .banners-grid .col-lg-3 {
+    max-width: 50% !important;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+
+/* fundo para lista de produtos*/
+.search-engine__item {
+    margin-bottom: 10px;
+    padding-bottom: 28px;
+    box-shadow: 0 0 1.1em #f5f5f5;
+}
+
+/*Fazer o Botão aparecer*/
+.product-card__buy.fade {
+    opacity: 1!important;
+    padding-top: 10px;
+}
+
+/*Diminuir_font_barra-pages-topo*/
+.top-bar__page-links a {
+    font-weight: 500;
+    font-size: 0.8em;
+}
+
+/*Alinhar_texto_barra-pages-topo*/
+.top-bar__nav {
+    text-align: end!important;
+}
+
+/*cor_infobar*/
+.info-bar {
+    width: 80%;
+    max-width: 60rem;
+    margin-left: auto;
+    margin-right: auto;
+    background: #ffffff00;
+    color: #0b6666;
+}
+
+/*Tamanho_font_infobar*/
+
+.info-bar__item {
+    text-transform: uppercase;
+    font-weight: 500!important;
+    font-size: 0.8em!important;
+}
+
+/*Sombra_Topo_*/
+#header {
+    box-shadow: 0 1.1rem 1rem rgba(0,0,0,.15)!important;
+    border-width: 0;
+    padding-top: 28px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+/*Retirar Imagem Produto_*/
+.col-12.col-md-6.mb-4{
+	/*display: none;*/
+}
+
+/*Centralizar "Produto" na pagina*/
+.col{
+	text-align: center;
+}
+
+
+/*Remover formas de pagamento*/
+.product__payment.card.mb-3{
+	display: none;
+}
+
+/*Remover texto descrição*/
+.lead {
+    display: none;
+}
+
+/*Remover SKU produto*/
+.product__sku{
+    display: none;
+}
+
+/*Centralizar Campo CEP*/
+.input-group {
+    justify-content: center;
+}
+
+/*Espaçamento entre elementos menu*/
+.header__nav {
+     display: flex;
+     justify-content: center; 
+     line-height: 15px
+}
+
+/*Edições menu*/
+.header__row .header__nav a {
+    position: relative;
+    font-weight: 500!important;
+    padding: 10px 10px;
+    text-transform: none;
+    font-size: 15px;
+    margin: 0;
+}
+
+/*Menu_barra_*/
+.header__row .header__nav a:after {
+    background: #3CB5B3;
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    opacity: 0;
+    transition: .2s cubic-bezier(.4,0,.22,1);
+}
+
+/*Mostrar traço hover menu*/
+.header__row .header__nav a:hover:after {
+    opacity: 1;
+}
+
+.header__nav a:hover {
+    background: transparent;
+}
+
+/*Barra de Pesquisa Arredondada*/
+
+.header__search-input {
+    padding: 0 var(--spacer-3);
+    border-radius: 50px!importante;
+    font-size: 0.9em!important;
+    line-height: var(--line-height-lg);
+    height: 45px;
+}
+
+/*Lupa_tamanho e Local)*/
+/*Tamanho*/
+.header__search-btn {
+    font-size: 1.3em;
+    margin-bottom: calc(var(--spacer-2)*-1 + -0.70rem);
+}
+}
+/*local*/
+.header__search-btn {
+    border: none;
+    background: none;
+    position: absolute;
+    bottom: 50%;
+    font-size: 1.3rem;
+    line-height: 1;
+    margin-bottom: calc(var(--spacer-2)*-1 + -.65rem);
+    right: var(--spacer-2);
+    padding: var(--spacer-2);
+    color: var(--secondary-lighter);
+    transition: color .125s;
+}
+
+/*Menu-borda-redonda*/
+.header__nav a {
+        border-radius: 25px;
+}
+
+/*Borda campo pesquisar*/
+.header__search {
+    border-radius: 2rem;
+}
+
+/*Tirar_Barra_Top*/
+@media only screen and (min-width: 768px) {
+.top-bar__nav {display: none !important;}
+}
+.top-bar__nav {
+    padding: 0;
+}
+
+/*Fixar Barra Marketing Topo*/
+.top-bar {
+    position: sticky;
+    top: 0px !important;
+    z-index: 500;
+}
+
+.header {
+    position: sticky;
+    top: 29px;
+    width: 100%;
+    background: var(--light);
+    padding: var(--spacer-1);
+    border-bottom: 1px solid var(--primary-lighter);
+    box-shadow: var(--box-shadow-sm);
+    z-index: 900;
+}
+
+/*Centralizar Lista de Coletas*/
+.shipping-calculator__services {
+    margin: auto;
+}
+
+/*Alteração Tamanho Logo*/
+/*Desktop*/
+@media (min-width: 576px) {
+  .header__logo {
+    max-width: 220px;
+    max-height: 60px;
+  }
+}  
+/*Mobile*/
+@media (max-width: 576px) {
+  .header__logo {
+    max-width: 195px;
+    max-height: 60px;
+  }
+}
+
+
+
+/*MUDANÇA DE CORES*/
+
+/*Botões*/
+@media  (hover: hover) {
+  .header__buttons .btn:hover {
+      color: #3CB5B3;
+  }
+}
+  
+/*Botão Pesquisar*/
+.header__search-btn {
+    color: #bbe1d9;
+}
+
+@media (hover: hover) {
+  .header__search-btn:hover {
+    color: #3CB5B3;
+  }
+}
+
+/*Borda Menu Lateral*/
+    .menu__item {
+    border-bottom: var(--border-width) solid #bbe1d9;
+}
+/*Menu Lateral Hover*/
+    .menu__item:hover {
+    background: #3CB5B3;
+}
+/*Menu Lateral Icon Hover*/
+   
+    
+/*Lights*/
+:root {
+--primary-lightest: #3CB5B3;
+--secondary-lightest: #3CB5B3;
+--primary-lighter: #3CB5B3;
+--secondary-lighter: #3CB5B3;
+    }
+    
+/*fim da mudanças de cores*/
+    
+/* Infobar distancia do slider */
+  .info-bar__item {
+    margin-top: var(--spacer-4);
+}
+
+/*Fullbanner*/
+@media  screen and (min-width: 992px) {
+  .banner-slider {
+    max-width: 100% !important; height: auto; --banner-aspect-ratio: 1 !important;
+  }
+}
+
+/*Retirar quantidade*/
+.cart-item__quantity {
+    display: none;
+  }
+
+/*EDIÇÕES MOBILE*/
+@media only screen and (max-width: 768px) {
+  .prices__value {
+    padding-bottom: 27px;
+  }
+  
+  .cart-item__quantity {
+    display: none;
+  }
+  .custom-select {
+    display: none;
+  }
+}
+
+
+/*ícone agendar exame*/
+a#cart-button img {
+    width: 39%;
+}
+/*DIMINUIR LOGO*/
+@media (max-width: 576px){
+.header__logo {
+    max-width: 156px;
+    max-height: 56px;
+}
+}
+/*AJUSTAR ÍCONES CABEÇALHO*/
+a#cart-button {
+    margin-left: -18px;
+}
+@media (max-width: 576px){
+#header {
+    padding-top: 8px;
+}
+}
+
+/*Peso dos títulos dos Produtos*/
+.product-card__name {
+    font-weight: 600;
+}
+
+/*Retirar seleção de quantidade*/
+.custom-select {
+    display: none;
+  }
+
+.product-card__offer-stamp {
+    top: -13px;
+}
+
+/*Distância botao comprar na aba pesquisa*/
+.prices:not(.prices--big) {
+    padding-bottom: 40px;
+}</style><link href="https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet"><script>(function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
+var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
+f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
+var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
+_.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+
+var ml_account = ml('accounts', '2816173', 'm4k9c1s3g5', 'load');</script></head><body id="page-pages/contato" class="__pages_contato" data-cms-collection="pages"><aside id="menu" class="menu shadow"><nav class="accordion" id="accordion-menu"><button class="menu__btn menu__btn--close btn" type="button" onclick="toggleSidenav()" aria-label="Toggle Side Navigation"><i class="fas fa-times"></i></button><div id="categories-nav" class="collapse show" aria-expanded="true" data-parent="#accordion-menu"><div class="menu__list"><a href="/exame" id="c-6105438533f3ce442f7f8be1" class="menu__item"><span>Exames </span></a><a href="/check-ups" id="c-6105446e33f3ce442f7f8c3e" class="menu__item"><span>Check-ups </span></a><a href="/exame-toxicologico" id="c-610546ad33f3ce442f7f8ce3" class="menu__item"><span>Exame toxicológico </span></a><a href="/consultas" id="c-615b10be28ace502ae9428d4" class="menu__item"><span>Consultas</span></a></div></div></nav><footer class="menu__footer"></footer></aside><main role="main" id="main"><div id="overlay" class="fade"></div><div class="top-bar"><div class="top-bar__countdown" style="">Ganhe 5% de desconto em seu primeiro exame!</div><div class="top-bar__nav d-none d-md-block"><div class="container-fluid"><div class="row"><div class="col"><nav class="top-bar__page-links"></nav></div></div></div></div></div><header class="header" id="header"><div class="header__container container-fluid"><div class="header__row row"><div class="col-auto p-0"><button class="btn header__toggler" type="button" onclick="toggleSidenav()" aria-label="Toggle side navigation"><i class="header__toggler-icon fas fa-bars"></i></button></div><div class="col col-lg-auto pl-1 pl-md-2 pl-lg-3"><a href="/"><img id="logo" class="header__logo" src="/img/uploads/logotipo_sem-margem_horizontal.png" alt="Clique Saúde - Portal de Exames" width="1210" height="220"></a></div><div class="order-lg-last col-auto p-0"><div class="header__buttons" role="group" aria-label="Minha conta"><button class="d-lg-none btn btn-lg" id="mobile-search-btn" type="button" data-toggle="collapse" data-target="#search-bar" aria-expanded="true" aria-controls="search-bar" aria-controls="search-bar" title="Buscar produtos"><i class="fas fa-search"></i></button> <a id="user-button" class="btn btn-lg" role="button" href="/app/#/account/" title="Minha conta"><i class="fas fa-user"></i> </a><a id="cart-button" class="btn btn-lg" role="button" href="/app/#/cart" title="Abrir carrinho"><img src="/img/uploads/agendar-exame.svg"> <span id="cart-count" class="badge badge-primary"></span></a></div><div id="login-modal"></div><div id="cart-quickview"></div></div><div class="d-none d-lg-block col-12 col-lg collapse show" id="search-bar"><form class="header__search mt-2 mt-md-3 mt-lg-0" id="search-form" action="/search" method="get"><input type="search" name="term" placeholder="Buscar exame" aria-label="Buscar produtos" class="header__search-input form-control" id="search-input"> <button type="submit" class="header__search-btn" aria-label="Buscar produtos"><i class="fas fa-search"></i></button><div id="instant-search"></div></form><script type="application/ld+json">{"@context":"http://schema.org","@type":"WebSite","url":"https://cliquesaude.netlify.app/","potentialAction":{"@type":"SearchAction","target":"https://cliquesaude.netlify.app/search?term={search_term_string}","query-input":"required name=search_term_string"}}</script></div><div class="d-none d-lg-block col-12 order-lg-last"><nav class="header__nav header__nav--full"><a href="javascript:;" onclick="toggleSidenav('exame')">Exames </a><a href="javascript:;" onclick="toggleSidenav('check-ups')">Check-ups </a><a href="javascript:;" onclick="toggleSidenav('exame-toxicologico')">Exame toxicológico </a><a href="javascript:;" onclick="toggleSidenav('consultas')">Consultas</a></nav></div></div></div></header><article id="content" class="page page--pages/contato"><div class="sections pb-1 pb-sm-2 pb-lg-4"><section class="custom-html my-4 my-lg-5"><div class="container"><div class="html-clearfix"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3856.4816647026087!2d-40.8558987856855!3d-14.854321204490562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7463b0b0b28c2e1%3A0x25e254cec4c48ffc!2sAv.%20Frei%20Benjamin%20-%20Vit%C3%B3ria%20da%20Conquista%2C%20BA%2C%2045051-075!5e0!3m2!1spt-BR!2sbr!4v1629146975102!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div></div></section><div class="extra-page"><section class="md-content mb-5 pt-1 pt-sm-2 pt-lg-3"><div class="container"><p></p><p><h5>Fale Conosco pelo:</h5><p>Telefone: <a href="https://web.whatsapp.com/send?phone=%2B557730289001">(77) 30289001</a> (<em>whatsapp</em>) | <a href="tel:+7730289001">(77) 30289001</a><a href="mailto:sac@cliquesaudeweb.com.br"></a></p><p>E-mail: <a href="mailto:sac@cliquesaudeweb.com.br">sac@cliquesaudeweb.com.br</a></p><hr width="“2”" size="“100”"><h5>Nosso Endereço</h5><p>Av. Frei Benjamim, 100 - Bairro Brasil</p><p>CEP 45051-075</p></p></div></section></div></div></article><footer class="footer py-3 py-lg-4 py-xl-5"><div class="container"><div class="row"><div class="col-12 col-lg-auto order-lg-last pl-xl-4"><div class="footer__contacts"><div class="footer__title">Contatos</div><ul class="list-unstyled"><li><span class="footer__list-icon"><i class="fab fa-whatsapp"></i> </span><a href="javascript:;" target="_blank" rel="noopener" class="whatsapp-link" data-tel="7730289001">(77) 30289001</a></li><li><span class="footer__list-icon"><i class="fas fa-phone"></i> </span><a href="tel:+7730289001" target="_blank" rel="noopener">(77) 30289001</a></li><li><a href="mailto:sac@cliquesaudeweb.com.br" target="_blank" rel="noopener">sac@cliquesaudeweb.com.br</a></li><li><address>Av. Frei Benjamim, 100 - Bairro Brasil CEP 45051-075</address></li></ul><p class="footer__social"><a href="https://www.facebook.com/cliquesaudeweb" target="_blank" rel="noopener" aria-label="facebook" style="color: #3b5998"><i class="fab fa-facebook"></i> </a><a href="https://www.instagram.com/cliquesaudeweb/" target="_blank" rel="noopener" aria-label="instagram" style="color: #e1306c"><i class="fab fa-instagram"></i></a></p></div></div><div class="col-12 col-sm-6 col-lg col-xl-auto px-xl-4"><a class="footer__title" data-toggle="collapse" href="#footer-pages" role="button" aria-expanded="false" aria-controls="footer-pages">Páginas</a><div class="collapse" id="footer-pages"><ul class="footer__links"><li><i class="fas fa-angle-right"></i> <a href="/pages/contato">Contato</a></li><li><i class="fas fa-angle-right"></i> <a href="/pages/faq">Dúvidas frequentes</a></li><li><i class="fas fa-angle-right"></i> <a href="/pages/privacidade">Política de privacidade</a></li><li><i class="fas fa-angle-right"></i> <a href="/pages/sobre-nos">Sobre a Clique Saúde</a></li><li><i class="fas fa-angle-right"></i> <a href="/pages/unidades">Unidades</a></li></ul></div></div><div class="col-12 col-sm-6 col-lg col-xl-auto px-xl-4"><a class="footer__title" data-toggle="collapse" href="#footer-categories" role="button" aria-expanded="false" aria-controls="footer-categories">Categorias</a><div class="collapse" id="footer-categories"><ul class="footer__links"><li><i class="fas fa-angle-right"></i> <a href="/exame">Exames</a></li><li><i class="fas fa-angle-right"></i> <a href="/check-ups">Check-ups</a></li><li><i class="fas fa-angle-right"></i> <a href="/exame-toxicologico">Exame toxicológico</a></li><li><i class="fas fa-angle-right"></i> <a href="/consultas">Consultas</a></li></ul></div></div><div class="col-12 col-xl order-lg-first"><h2 class="footer__title footer__store">Clique Saúde - Portal de Exames</h2><p>Um portal para agendar exames com apenas um clique</p><div class="mt-4 mb-3"><p class="footer__payment-methods"><i class="pay-icon pay-icon--bb"></i> <i class="pay-icon pay-icon--visa"></i> <i class="pay-icon pay-icon--boleto"></i> <i class="pay-icon pay-icon--elo"></i> <i class="pay-icon pay-icon--bradesco"></i> <i class="pay-icon pay-icon--mastercard"></i> <i class="pay-icon pay-icon--itau"></i></p><div class="footer__stamps"><ul class="stamps"><li><img data-src="/img/uploads/ssl-safe.png" alt="Secure connection" class="lozad fade" data-preload width="150" height="62"></li></ul></div></div></div></div><div class="footer__credits"><span>© Clique Saúde | Portal de Exames em Vitória da Conquista / Av. Frei Benjamim, 100 - Bairro Brasil CEP 45051-075 / 42589856000194 </span><button id="go-to-top" class="btn btn-primary ml-3" type="button" aria-label="Ir pata o topo"><i class="fas fa-chevron-up"></i></button></div></div></footer><div class="ecom-credits"><a href="https://e-com.plus" target="_blank" rel="noopener">Powered by <img src="https://ecom.nyc3.digitaloceanspaces.com/brand/plus/198x43.png" alt="E-Com Plus" width="92" height="19.98"></a></div></main><script>/*<!--*/window._settings={"domain":"cliquesaude.netlify.app","currency_symbol":"R$","primary_color":"#0b6666","theme":{"bootswatch":"_","custom":"_"},"bg_color":"#ffffff","repository":"ecomplus-stores/cliquesaude","logo":"/img/uploads/logotipo_sem-margem_horizontal.png","name":"Clique Saúde - Portal de Exames","short_name":"Clique Saúde","lang":"pt_br","currency":"BRL","mini_logo":"","favicon":"/img/uploads/favicon_cliquesaude.png","country_code":"BR","secondary_color":"#0b6666","icon":"/img/uploads/faviconapp.png","store_id":4673,"description":"Um portal para agendar exames com apenas um clique","large_icon":"/img/uploads/logotipo_cs_margin.png"};window._info={"shipping":{"show":true,"text":"Coleta em Vitória da Conquista"},"installments":{"show":true,"text":"Parcele sem juros"},"exchange":{"show":false,"text":"Não gostou? A primeira troca é gratuita"},"promo":{"show":true,"text":"5% de desconto em seu primeiro exame!"}};window._widgets={"@ecomplus/widget-minicart":{"active":true,"desktopOnly":false,"options":{}},"@ecomplus/widget-product-card":{"active":true,"desktopOnly":false,"options":{"buyText":"","buy":"","footer":""}},"@ecomplus/widget-product":{"active":true,"desktopOnly":false,"options":{"buyText":"","buy":"","lowQuantityToWarn":12,"maxVariationOptionsBtns":6}},"@ecomplus/widget-search-engine":{"active":true,"desktopOnly":false,"options":{"pagination":false}},"@ecomplus/widget-search":{"active":true,"desktopOnly":false,"options":{}},"@ecomplus/widget-user":{"active":true,"desktopOnly":true}};window._context={"collection":"pages","slug":"contato","content":{}};window._data={"categories":[{"_id":"6105438533f3ce442f7f8be1","name":"Exames","slug":"exame","created_at":"2021-07-31T12:35:17.505Z"},{"_id":"6105446e33f3ce442f7f8c3e","name":"Check-ups","slug":"check-ups","created_at":"2021-07-31T12:39:10.258Z"},{"_id":"610546ad33f3ce442f7f8ce3","name":"Exame toxicológico","slug":"exame-toxicologico","updated_at":"2021-11-04T18:13:59.275Z"},{"_id":"615b10be28ace502ae9428d4","name":"Consultas","slug":"consultas","updated_at":"2021-10-04T14:38:56.200Z"}],"grids":[],"items":[{"_id":"612647afcfbcd9705988e6cf","sku":"YHX4827","name":"Proteínas Totais e Frações","slug":"proteinas-totais-e-fracoes","pictures":[{"_id":"389340162994171355000000","normal":{"url":"https://ecoms1.com/4673/imgs/normal/@v3/1629941683176-sorosemjejum.png.webp","size":"350x350","alt":"soro sem jejum"}}]},{"_id":"6126bebacfbcd970598976cc","sku":"TIJ6026","name":"HBsAG - HEPATITE B","slug":"hepatite-b-hbsag--antigeno-australia","pictures":[{"_id":"208390162994078409500000","normal":{"url":"https://ecoms1.com/4673/imgs/normal/@v3/1629940775067-sorosemjejum.png.webp","size":"350x350","alt":"soro sem jejum"}}]},{"_id":"6126c1f6cfbcd97059897974","sku":"FYM1022","name":"T3 – Triiodotironina Total","slug":"t3--triiodotironina-total","pictures":[{"_id":"710030162993980833200000","normal":{"url":"https://ecoms1.com/4673/imgs/normal/@v3/1629939790872-sorosemjejum.png.webp","size":"350x350","alt":"soro sem jejum"}}]},{"_id":"6126c6e0cfbcd97059897dbb","sku":"GYZ9446","name":"Hormônio Luteinizante (LH)","slug":"hormonio-luteinizante-lh","pictures":[{"_id":"731530162993920424600000","normal":{"url":"https://ecoms1.com/4673/imgs/normal/@v3/1629939196652-sorosemjejum.png.webp","size":"350x350","alt":"soro sem jejum"}}]},{"_id":"6126c007cfbcd97059897825","sku":"JQD3571","name":"IgE - Imunoglobulina E","slug":"imunoglobulina-e--ige","pictures":[{"_id":"745380162994013725200000","normal":{"url":"https://ecoms1.com/4673/imgs/normal/@v3/1629940130270-sorosemjejum.png.webp","size":"350x350","alt":"soro sem jejum"}}]},{"_id":"6126c571cfbcd97059897c9a","sku":"EAX7368","name":"ASLO","slug":"aslo--antiestreptolisina--o","pictures":[{"_id":"803330162993939739000000","normal":{"url":"https://ecoms1.com/4673/imgs/normal/@v3/1629939391392-soro8h.png.webp","size":"350x350","alt":"soro 8 h"}}]},{"_id":"6126c4e8cfbcd97059897c2d","sku":"APO7221","name":"Insulina","slug":"insulina","pictures":[{"_id":"751520162993963554100000","normal":{"url":"https://ecoms1.com/4673/imgs/normal/@v3/1629939629183-soro8h.png.webp","size":"350x350","alt":"soro 8 h"}}]},{"_id":"61264564cfbcd9705988e565","sku":"VMV5483","name":"HCV - Teste de Hepatite C","slug":"teste-de-hepatite-c","pictures":[{"_id":"588930162994232062700000","normal":{"url":"https://ecoms1.com/4673/imgs/normal/@v3/1629942313970-sorosemjejum.png.webp","size":"350x350","alt":"soro sem jejum"}}]}]};/*-->*/</script><script type="application/ld+json">{"@context":"http://schema.org","@type":"Organization","name":"Clique Saúde - Portal de Exames","url":"https://cliquesaude.netlify.app/","logo":"https://cliquesaude.netlify.app/img/uploads/logotipo_sem-margem_horizontal.png"}</script><script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script><script>if (!window.jQuery) {
+      document.write('<script src="https://unpkg.com/jquery@3.5.1/dist/jquery.min.js"><\/script>')
+    }</script><script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script><script>if (!window.Popper) {
+      document.write('<script src="https://unpkg.com/popper.js@1.16.1/dist/umd/popper.min.js"><\/script>')
+    }</script><script src="/storefront.e79b3d38ff4310674377.js"></script><script src="//code.tidio.co/yewdasbtk9dnph5sie4zt60acttabwuu.js" async></script></body></html>
