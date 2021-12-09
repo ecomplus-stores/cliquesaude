@@ -28,22 +28,23 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/exames.png",
+          "img": "/img/uploads/exames_orange.png",
           "link": "https://cliquesaude.netlify.app/exame"
         },
         {
-          "img": "/img/uploads/testes.png"
+          "img": "/img/uploads/check-ups_orange.png",
+          "link": "https://cliquesaude.netlify.app/check-ups"
         },
         {
-          "img": "/img/uploads/check-ups.png",
-          "link": "https://cliquesaude.netlify.app/check-ups"
+          "img": "/img/uploads/exames-toxicologicos_orange.png",
+          "link": "https://cliquesaude.netlify.app/exame-toxicologico"
         }
       ]
     },
     {
       "type": "responsive-banner",
-      "img": "/img/uploads/desktop_diagnostico-por-em-imagem.1.png",
-      "mobile_img": "/img/uploads/mobile_diagnosticoporimagem.1.png"
+      "img": "/img/uploads/desktop_diagnostico-bell.png",
+      "mobile_img": "/img/uploads/mobile_diagnostico-bell.png"
     },
     {
       "type": "custom-html",
