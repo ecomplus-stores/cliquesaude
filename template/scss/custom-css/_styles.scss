@@ -1,4 +1,11 @@
 // Add your custom CSS here.
+.product__out-of-stock {
+  font-size: 0
+}
+.product__out-of-stock:after {
+  font-size: 1.5rem !important;
+  content: "Sob Consulta"
+}
 label[for="shipping-calculator-zip"] {
     font-size: 0;
     &::after {
