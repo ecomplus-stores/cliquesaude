@@ -43,8 +43,8 @@
     },
     {
       "type": "responsive-banner",
-      "img": "/img/uploads/desktop_diagnostico-bell.png",
-      "mobile_img": "/img/uploads/mobile_diagnostico-bell.png"
+      "img": "/img/uploads/desktop_diagnostico-bell_minimal.png",
+      "mobile_img": "/img/uploads/mobile_diagnostico-bell_minimal-1.png"
     },
     {
       "type": "custom-html",
