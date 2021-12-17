@@ -1,5 +1,5 @@
 {
-  "domain": "cliquesaude.netlify.app",
+  "domain": "cliquesaudeweb.com.br",
   "currency_symbol": "R$",
   "primary_color": "#0b6666",
   "theme": {
@@ -9,7 +9,7 @@
   "bg_color": "#ffffff",
   "repository": "ecomplus-stores/cliquesaude",
   "logo": "/img/uploads/logotipo_sem-margem_horizontal.png",
-  "name": "Clique Saúde - Portal de Exames",
+  "name": "Clique Saúde - Portal de Exames em Vitória da Conquista",
   "short_name": "Clique Saúde",
   "lang": "pt_br",
   "currency": "BRL",
