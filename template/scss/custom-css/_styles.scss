@@ -1,4 +1,11 @@
 // Add your custom CSS here.
+.product-card__link .badge.badge-dark.mt-auto {
+font-size: 0
+}
+.product-card__link .badge.badge-dark.mt-auto:after {
+font-size: 1rem !important;
+content: 'Sob Consulta'
+}
 .product__out-of-stock {
   font-size: 0
 }
