@@ -29,15 +29,15 @@
       "banners": [
         {
           "img": "/img/uploads/exames_orange.png",
-          "link": "https://cliquesaude.netlify.app/exame"
+          "link": "/exame"
         },
         {
           "img": "/img/uploads/check-ups_orange.png",
-          "link": "https://cliquesaude.netlify.app/check-ups"
+          "link": "/check-ups"
         },
         {
           "img": "/img/uploads/exames-toxicologicos_orange.png",
-          "link": "https://cliquesaude.netlify.app/exame-toxicologico"
+          "link": "/exame-toxicologico"
         }
       ]
     },
