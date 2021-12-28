@@ -90,3 +90,47 @@ label[for="shipping-calculator-zip"] {
   content: " : informe abaixo, se você já utiliza algum medicamento ou tem alguma restrição";
   font-weight: 500
 }
+
+
+/* ALPIX */
+// SCHEDULING
+
+#apx-datepicker{}
+#apx-datepicker [name="dataAgendamento"]{max-width: 195px;}
+#apx-datepicker .input-group-append button{
+    padding-left:11px;
+    padding-right:11px
+}
+
+#apx-datepicker .input-group-append svg{
+    width: 22px;
+    height: 22px;
+    fill:#000
+}
+
+.unidade-entrega{
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: calc(20% - 10px) calc(20% - 10px) calc(20% - 10px) calc(20% - 10px) calc(20% - 10px);
+    grid-gap: 12px;
+    margin-bottom:30px;
+}
+.unidade-entrega-titulo{
+    font-size:12px;
+    font-weight:600;
+    display:block;
+    margin-bottom:10px;
+}
+.unidade-entrega .list-group-item{padding:0;border:0;padding:5px}
+.unidade-entrega .list-group-item strong{font-weight:normal;font-size:12px;display:block; text-align:center}
+.unidade-entrega .list-group-item .shipping-calculator__option{display:block;}
+.unidade-entrega .list-group-item .shipping-calculator__option small{display:none}
+
+.nda input{
+    margin: -1px 3px 0 0;
+    vertical-align: middle;
+}
+
+.shipping-calculator__services [schedule="yes"] > a {display:none}
+
+// .input-group{justify-content:left!important;}

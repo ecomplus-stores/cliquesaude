@@ -1,0 +1,22 @@
+<div class="scheduled_cliquesaude" v-if="shippingLine.scheduled_delivery">
+  <div v-bind:class="serviceCode ? serviceCode.service_code.split('|')[0] : ''" v-bind:unidade="serviceCode ? serviceCode.label : ''">    
+    <strong>
+      {{shippingLine.scheduled_delivery.end.split(' ')[1]}}
+    </strong>
+  </div>  
+</div>
+
+<div class="shipping-line" v-else>
+  <!-- <strong class="mr-2">
+    {{ deadlineStr }}
+  </strong>
+  
+   -->
+  <strong class="mr-2">Ponto de coleta</strong>
+  <small v-if="shippingLine.delivery_instructions">
+    {{ shippingLine.delivery_instructions }}
+  </small>
+  <span class="mr-2">
+    {{ freightValueStr != "Frete grátis" ? freightValueStr : '' }}
+  </span>
+</div>
