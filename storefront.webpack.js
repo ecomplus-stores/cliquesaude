@@ -3,6 +3,7 @@ module.exports = () => ({
   resolve: {
     alias: {
       './html/InstantSearch.html': path.resolve(__dirname, 'template/js/custom-js/html/InstantSearch.html'),
+      './html/AccountForm.html': path.resolve(__dirname, 'template/js/custom-js/alpix/AccountForm.html'),
       './html/EcCheckout.html': path.resolve(__dirname, 'template/js/custom-js/alpix/EcCheckout.html'),
       './html/ShippingLine.html': path.resolve(__dirname, 'template/js/custom-js/alpix/ShippingLine.html'),
       './js/ShippingLine.js': path.resolve(__dirname, 'template/js/custom-js/alpix/ShippingLine.js'),
