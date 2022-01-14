@@ -1,7 +1,8 @@
 {
   "marketing_stripe": {
     "text": "Veja aqui seu RESULTADO DO SEU EXAME",
-    "link": "http://resultadosexames.com.br/"
+    "link": "http://resultadosexames.com.br/",
+    "background": "#f4793d"
   },
   "contacts_stripe": {
     "pages": [],
