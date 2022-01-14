@@ -1,7 +1,7 @@
 {
   "marketing_stripe": {
     "text": "🔍 CONFIRA O RESULTADO DO SEU EXAME",
-    "link": "https://resultadoexames.com.br/",
+    "link": "<a href=\"#\" target=\"_blank\">https://resultadoexames.com.br/</a>",
     "background": "#f4793d"
   },
   "contacts_stripe": {
