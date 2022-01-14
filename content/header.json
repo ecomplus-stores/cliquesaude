@@ -10,7 +10,9 @@
     "socials": false
   },
   "categories_list": {
-    "featured": [],
+    "featured": [
+      "/consultas?Consultas"
+    ],
     "random": 6,
     "full_width": true
   },
