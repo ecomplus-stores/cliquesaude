@@ -11,10 +11,12 @@
   },
   "categories_list": {
     "featured": [
-      "/consultas?Consultas"
+      "/exame?Exames",
+      "/resutado-de-exames?Resultado de Exames"
     ],
     "random": 6,
     "full_width": true
   },
-  "search_input": true
+  "search_input": true,
+  "desktop_megamenu": true
 }
