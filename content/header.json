@@ -12,7 +12,9 @@
   "categories_list": {
     "featured": [
       "/exame?Exames",
-      "/resutado-de-exames?Resultado de Exames"
+      "/resutado-de-exames?Resultado de Exames",
+      "/exame-toxicologico?Exame toxicológico",
+      "/check-ups?Check-ups"
     ],
     "random": 6,
     "full_width": true
