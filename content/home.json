@@ -7,6 +7,13 @@
       "autoplay": 9000,
       "slides": [
         {
+          "start": "2022-07-20T15:12:04.051Z",
+          "end": "",
+          "img": "/img/uploads/resultados-desktop.png",
+          "mobile_img": "/img/uploads/resultados-mobile.png",
+          "link": "https://resultadoexames.com.br/"
+        },
+        {
           "start": "2021-08-02T23:16:49.856Z",
           "end": "2022-08-02T23:16:49.921Z",
           "img": "/img/uploads/desktop_cliquesaudeteste.png",
@@ -17,13 +24,6 @@
           "end": "2030-10-13T19:38:29.802Z",
           "img": "/img/uploads/consultas_desktop-1-.png",
           "mobile_img": "/img/uploads/consulta_mobile.png"
-        },
-        {
-          "start": "2022-07-20T15:12:04.051Z",
-          "end": "",
-          "img": "/img/uploads/resultados-desktop.png",
-          "mobile_img": "/img/uploads/resultados-mobile.png",
-          "link": "https://resultadoexames.com.br/"
         }
       ],
       "full_width": true
