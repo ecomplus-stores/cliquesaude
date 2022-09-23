@@ -11,7 +11,20 @@
   "links_2": {
     "list_categories": true,
     "title": "Categorias",
-    "list": []
+    "list": [
+      {
+        "text": "Exames",
+        "url": "https://www.cliquesaudeweb.com.br/exame"
+      },
+      {
+        "text": "Check-up",
+        "url": "https://www.cliquesaudeweb.com.br/check-ups"
+      },
+      {
+        "text": "Toxicológico",
+        "url": "https://www.cliquesaudeweb.com.br/exame-toxicologico"
+      }
+    ]
   },
   "contacts": {
     "title": "Contatos",
