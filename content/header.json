@@ -2,7 +2,8 @@
   "marketing_stripe": {
     "text": "🔍 CONFIRA O RESULTADO DO SEU EXAME",
     "link": "https://res.medicsul.com.br/laudo/cliquesaude",
-    "background": "#3a817f"
+    "background": "#3a817f",
+    "color": "#fcfcfc"
   },
   "contacts_stripe": {
     "pages": [],
